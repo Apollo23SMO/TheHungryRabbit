@@ -4,7 +4,7 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 const Body = Matter.Body;
-const Composites = Matter.Composites;
+const Compositites;
 const Composite = Matter.Composite;
 
 let engine;
@@ -105,7 +105,7 @@ function setup()
    button3.mouseClicked(drop3);
 
   mute_btn = createImg('mute.png');
-  mute_btn.position(450,20);
+  mute_btn.position(canW - 75,20);
   mute_btn.size(50,50);
   mute_btn.mouseClicked(mute);
   
