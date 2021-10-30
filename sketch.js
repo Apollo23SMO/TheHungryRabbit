@@ -105,7 +105,7 @@ function setup()
    button3.mouseClicked(drop3);
 
   mute_btn = createImg('mute.png');
-  mute_btn.position(canW - 75,20);
+  mute_btn.position(canW - 50,20);
   mute_btn.size(50,50);
   mute_btn.mouseClicked(mute);
   
